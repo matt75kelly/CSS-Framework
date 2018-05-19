@@ -7,20 +7,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Portfolio</title>
   </head>
   <body>
-      <div class="container-fluid">
+      <div class="container-fluid header wrapper-top guttering">
         <div class="row">
             <!-- Left Gutter for Aligning with the Body -->
-            <div class="col-sm-2"></div>
+            <div class="col-sm-3 guttering"></div>
             <!-- Page title  -->
-            <div class="col-sm-2 justify-contents-start">
+            <div class="col-sm-2 justify-contents-start name">
                 <h1>Matthew Kelly</h1>
             </div>
             <!-- Center gutter for spacing between elements -->
-            <div class="col-sm-4"></div>
+            <div class="col-sm-2"></div>
             <!-- Navigation Bar - Responsive with Flexboxes -->
             <div class="col-sm-2 justify-contents-end align-self-center">
                 <nav class="nav nav-pills flex-column flex-sm-row">
@@ -30,15 +31,17 @@
                 </nav>
             </div>
             <!-- Right Gutter for Aligning with the Body -->
-            <div class="col-sm-2"></div>
+            <div class="col-sm-3 guttering"></div>
         </div>
+      </div>
         <!-- Main body structure/ layout -->
-    <div class="container-fluid" style="background-image:url(assets/Images/nice_snow_@2X.jpg);">
+    <div class="container-fluid main-content">
         <div class="row">
             <!-- Left Gutter for Aligning with the Header -->
-            <div class="col-sm-2"></div>
+            <div class="col-sm-3 guttering"></div>
             <!-- Main Content -->
-            <div class="col-sm-8" style="padding: 0 0 0 0;">
+            <div class="col-sm-6 guttering">
+                <div class="jumbotron-fluid content-about">
                 <div class="row">
                     <div class = "col project">
                         <div class="card" style="width: 18rem;">
@@ -64,8 +67,6 @@
                             </div>
                         </div>
                     </div>    
-                </div>
-                <div class="row">
                     <div class = "col project">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="http://www.texample.net/media/tikz/examples/PNG/coin-flipping.png" alt="Card image cap">
@@ -93,71 +94,17 @@
                 </div>
             </div>
             <!-- Right Gutter for Aligning with the Header -->
-            <div class="col-sm-2"></div>
+            <div class="col-sm-3 guttering"></div>
         </div>
         <!-- Footer -->
-        <div class="row justify-content-center align-self-center">
-            <p>
-                Copyright ©
-            </p>
+        <div class="row justify-content-center align-self-center fixed-bottom copyright">
+            <p>Copyright ©</p>
         </div>
-        <!-- <div class="main-content">
-            <section class="content-about">
-                <div class="content-header">
-                    <header class="content-title">Portfolio</header>
-                </div>
-                <div class="content">
-                    <div class="project" id="project1">
-                        <br>
-                        <p>250px X 250px</p>
-                        <div class="banner">
-                            <a href="#">Project 1</a>
-                        </div>
-                    </div>
-                    <div class="project" id="project2">
-                        <br>
-                        <p>250px X 250px</p>
-                        <div class="banner">
-                            <a href="#">Project 2</a>
-                        </div>
-                    </div>
-                    <div class="project" id="project3">
-                        <br>
-                        <p>250px X 250px</p>
-                        <div class="banner">
-                            <a href="#">Project 3</a>
-                        </div>
-                    </div>
-                    <div class="project" id="project4">
-                        <br>
-                        <p>250px X 250px</p>
-                        <div class="banner">
-                            <a href="#">Project 4</a>
-                        </div>  
-                    </div>
-                    <div class="project" id="project5">
-                        <br>
-                        <p>250px X 250px</p>
-                        <div class="banner">
-                            <a href="#">Project 5</a>
-                        </div>  
-                    </div>
-                    <div class="project" id="project6">
-                        <br>
-                        <p>250px X 250px</p>
-                        <div class="banner">
-                            <a href="#">Project 6</a>
-                        </div>  
-                    </div>
-                </div>
-            </section>
-        </div> -->
-<!-- Right Gutter for Aligning with the Header -->
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    </body>
+  </body>
 </html>
